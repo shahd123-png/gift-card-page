@@ -1,0 +1,273 @@
+.main {
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* first Div*/
+.header-and-paragraph {
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-heading {
+    text-align: center;
+}
+
+.first-paragraph {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    padding: 0rem 5rem;
+}
+
+/*Second Dev*/
+
+.Gift-Card-Big-div {
+    padding: 1rem 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.second-heading {
+    display: flex;
+}
+
+.drop-down-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Label-dropdown {
+    color: rgb(173, 173, 173);
+    font-size: 16px;
+    padding-bottom: 4px;
+    display: flex;
+}
+
+
+.select-list:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+
+
+
+.select-list {
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.big-div-for-labels {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Radio-Buttons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gift-card-labels {
+    font-size: large;
+    border: 2px solid rgb(229 228 228);
+    box-shadow: 1px 0px 7px 5px rgb(213, 213, 213);
+    padding: 2rem 3.5rem;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    cursor: pointer; /* Add cursor style to indicate interactivity */
+}
+.gift-card-labels:hover {
+    background-color: rgb(225, 195, 231);
+}
+
+.gift-card-labels:active {
+    background-color: rgb(113, 55, 125);
+}
+
+
+.radio-circle:checked + label.gift-card-labels {
+   background-color:  rgb(113, 55, 125);
+}
+
+/*
+.gift-card-labels:not(:checked) {
+    background-color: blue;
+}
+*/
+
+.label-value {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.radio-circle {
+    accent-color: rgb(113, 55, 125);
+
+}
+
+/*text boxs form*/
+
+.Big-for-text-box {
+    display: flex;
+    flex-direction: column;
+    padding: 27px 20px 23px;
+}
+
+/*Name text box*/
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+.sub-name {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.name-format {
+    padding: 0.7rem;
+    border-radius: 9px;
+    border: 1.5px solid rgb(229 228 228);
+}
+
+/*Recipient text box*/
+
+.sub-other {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 10px;
+    margin-left: 4rem;
+}
+
+.recipients-format {
+    padding: 0.7rem;
+    border-radius: 9px;
+    border: 1.5px solid rgb(229 228 228);
+
+}
+
+
+/*seconed row text box*/
+.seconed-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+/*delivery date box*/
+.Date {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1.2;
+    padding-left: 10px;
+}
+
+.label {
+    padding-bottom: 0.5rem;
+    color: rgb(173, 173, 173);
+}
+
+.date-format {
+    padding: 0.7rem;
+    border-radius: 9px;
+    border: 1.5px solid rgb(229 228 228);
+
+}
+
+/* Recipient-email text box*/
+
+.Recipient-email {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 10px;
+    margin-left: 4rem;
+}
+
+.email-format {
+    padding: 0.7rem;
+    border-radius: 9px;
+    border: 1.5px solid rgb(229 228 228);
+
+}
+
+
+/*msg*/
+.msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-left: 10px;
+}
+
+.msg-format {
+    border-radius: 9px;
+    border: 1.5px solid rgb(229 228 228);
+    padding-bottom: 6rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.checkout {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-format {
+    padding: 0.7rem;
+    background-color: rgb(113, 55, 125);
+    color: aliceblue;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.for-business {
+    display: flex;
+    margin: 1rem 7rem;
+    background-color: rgb(228, 240, 249);
+    border-radius: 10px;
+    min-height: 20rem;
+    align-items: center;
+    justify-content: center;
+    width: 82%;
+}
+
+.youtube-video {
+    display: flex;
+    margin: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.business-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 3rem;
+}
+
